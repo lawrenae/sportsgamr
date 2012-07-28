@@ -13,3 +13,9 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+app/assets/.DS_Store
+
+features/.DS_Store
+
+lib/.DS_Store
