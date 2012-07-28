@@ -10,5 +10,5 @@ When /^he logs in$/ do
 end
 
 Then /^he should see "(.*?)"$/ do |message|
-  pending
+  page.should have_content message
 end

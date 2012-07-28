@@ -1,0 +1,15 @@
+<% page_title = "Log into SportsGamr" %>
+<html>
+<head>
+<title><%= page_title %></title>
+</head>
+<body>
+	<%= form_tag("/login", :method => "login") do %>
+	  <%= label_tag(:username, "User name") %>
+	  <%= text_field_tag(:username) %>
+	  <%= label_tag(:password, "Password") %>
+	  <%= text_field_tag(:password) %>
+	  <%= submit_tag("Log in") %>
+	<% end %>
+</body>
+</html>
