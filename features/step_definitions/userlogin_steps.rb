@@ -1,11 +1,14 @@
-Given /^I am looking at the login page$/ do
-  pending
+Given /^That the user "(.*?)" has an account$/ do |username|
+  @user = User.create!(:name => username, :password => 'xyz')
 end
 
-When /^I fill in "(.*?)" with "(.*?)"$/ do |arg1, arg2|
-  pending
+When /^he logs in$/ do
+  visit('/login')
+  fill_in('User name', :with => @user.name)
+  fill_in('Password', :with => @user.password)
+  click_button('Log in')
 end
 
-Then /^I should see "(.*?)"$/ do |arg1|
+Then /^he should see "(.*?)"$/ do |message|
   pending
 end
