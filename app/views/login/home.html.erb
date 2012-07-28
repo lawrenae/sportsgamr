@@ -3,7 +3,9 @@
 <head>
 <title><%= page_title %></title>
 </head>
+<%user = session[:user]%>
 <body>
-Welcome to SportsGamr
+Welcome to SportsGamr, <%=user.first_name %>!
+<div id="account_balance">Account Balance: <%= user.account_balance %></div>
 </body>
 </html>
