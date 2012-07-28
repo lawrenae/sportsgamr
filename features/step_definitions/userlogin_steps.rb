@@ -3,7 +3,7 @@ Given /^That the user "(.*?)" has an account$/ do |username|
 end
 
 When /^he logs in$/ do
-  visit('/login')
+  visit('/')
   fill_in('User name', :with => @user.username)
   fill_in('Password', :with => @user.password)
   click_button('Log in')
