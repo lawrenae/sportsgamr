@@ -1,5 +1,5 @@
 require 'spec_helper'
 
-describe Probability do
-
+describe Event do
+  
 end
