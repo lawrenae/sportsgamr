@@ -1,4 +1,5 @@
 Sportsgamr::Application.configure do
+  config.assets.precompile += %w( home.css game_detail.css earn_credit.css game_detail.js jquery-1.7.2.js  )
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
