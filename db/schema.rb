@@ -24,10 +24,11 @@ ActiveRecord::Schema.define(:version => 20120728230710) do
   create_table "probabilities", :force => true do |t|
     t.integer  "line"
     t.decimal  "money"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.string   "type"
+    t.integer  "event_id",         :null => false
+    t.string   "probability_type"
     t.string   "context"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "users", :force => true do |t|
