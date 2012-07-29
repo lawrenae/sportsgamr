@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(:version => 20120728230710) do
     t.integer  "line"
     t.decimal  "money"
     t.integer  "event_id",         :null => false
+    t.string   "team_name"
     t.string   "probability_type"
     t.string   "context"
     t.datetime "created_at",       :null => false

@@ -1,3 +1,4 @@
+<% require "resultscalculator" %>
 <% page_title = "You are Home" %>
 <html>
 <head>
@@ -7,5 +8,40 @@
 <body>
 Welcome to SportsGamr, <%=user.first_name %>!
 <div id="account_balance">Account Balance: <%= user.account_balance %></div>
+
+<div id="current_events">
+	<table border=1>
+		<tr>
+			<th>Event Date</th>
+			<th>Home Team</th>
+			<th>Home moneyline</th>
+			<th>Away Team</th>
+			<th>Away moneyline</th>
+		</tr>
+		<% Event.find(:all).each_slice(1) do |event_row| %>
+		  <tr>
+		    <% event_row.each do |event| %>
+		      <td><%= event.event_date %></td>
+		      <td><%= event.home_team %></td>
+		
+			  <% event.probabilities.each do |prob| %>
+					<% if prob.probability_type == "MoneyLine" and event.home_team == prob.team_name then %>
+						<td><%=ResultsCalculator.calculate_moneyline_probability(prob.line) %>% </td>
+					<% end %>
+		      <% end %>
+		      <td><%= event.away_team %></td>
+
+			  <% event.probabilities.each do |prob| %>
+					<% if prob.probability_type == "MoneyLine" and event.away_team == prob.team_name then %>
+						<td><%=ResultsCalculator.calculate_moneyline_probability(prob.line) %>% </td>
+					<% end %>
+		      <% end %>
+
+
+		    <% end %>
+		  </tr>
+		<% end %>
+	<table>
+</div>
 </body>
 </html>

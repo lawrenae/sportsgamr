@@ -4,6 +4,7 @@ class CreateProbabilities < ActiveRecord::Migration
       t.integer :line
       t.decimal :money
       t.integer :event_id, :null => false
+      t.string :team_name
       t.string :probability_type
       t.string :context
       t.timestamps

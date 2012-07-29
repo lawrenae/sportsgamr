@@ -1,6 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sports-content>
     <sport-event>
+        <event-metadata event-status="FINAL" league="MLB Baseball" event-date-time="10/29/2009 07:55 PM" />
+        <team>
+            <team-metadata alignment="Home" nss="954" home-pitcher="A BURNETT">
+                <name full="Cincinnati Reds" />
+            </team-metadata>
+            <wagering-stats>
+                <wagering-straight-spread bookmaker-name="5Dimes" line="-1.5" money="100" context="current" />
+                <wagering-moneyline bookmaker-name="5Dimes" line="-192" context="current" />
+                <wagering-total bookmaker-name="5Dimes" line="9.5" money="-120" context="current" />
+            </wagering-stats>
+            <team-stats score="3" />
+        </team>
+        <team>
+            <team-metadata alignment="Away" nss="953" away-pitcher="P MARTINEZ">
+                <name full="Colorado Rockie"s />
+            </team-metadata>
+            <wagering-stats>
+                <wagering-straight-spread bookmaker-name="5Dimes" line="1.5" money="-120" context="current" />
+                <wagering-moneyline bookmaker-name="5Dimes" line="181" context="current" />
+                <wagering-total bookmaker-name="5Dimes" line="9.5" money="100" context="current" />
+            </wagering-stats>
+            <team-stats score="1" />
+        </team>
+    </sport-event>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <sport-event>
+        <event-metadata event-status="" league="NHL Hockey" event-date-time="10/29/2009 07:05 PM" />
+
+        <team>
+            <team-metadata alignment="Home" nss="1002">
+                <name full="Boston Bruins" />
+            </team-metadata>
+            <wagering-stats>
+                <wagering-straight-spread bookmaker-name="Pinnacle" line="-0.5" money="156" context="first-half" />
+                <wagering-moneyline bookmaker-name="Pinnacle" line="-135" context="first-half" />
+                <wagering-total bookmaker-name="Pinnacle" line="40.5" money="113" context="current" />
+
+            </wagering-stats>
+            <team-stats score="0" />
+        </team>
+
+        <team>
+            <team-metadata alignment="Away" nss="1001">
+                <name full="New Jersey Devils" />
+            </team-metadata>
+            <wagering-stats>
+                <wagering-straight-spread bookmaker-name="Pinnacle" line="0.5" money="-170" context="first-half" />
+                <wagering-moneyline bookmaker-name="Pinnacle" line="125" context="first-half" />
+                <wagering-total bookmaker-name="Pinnacle" line="40.5" money="113" context="current" />
+
+            </wagering-stats>
+            <team-stats score="0" />
+        </team>
+    </sport-event>
+
+
+
+
+
+
+
+
+    <sport-event>
         <event-metadata event-status="" league="NHL Hockey" event-date-time="10/29/2009 07:05 PM" />
         <team>
             <team-metadata alignment="Home" nss="42">
@@ -30,16 +107,23 @@
                 <name full="Away Goals" />
             </team-metadata>
             <wagering-stats>
-                <wagering-straight-spread bookmaker-name="5Dimes" line="0.5" money="-125" context="current" />
+
+
                 <wagering-moneyline bookmaker-name="5Dimes" line="-115" context="current" />
+                <wagering-straight-spread bookmaker-name="5Dimes" line="0.5" money="-125" context="current" />
                 <wagering-total bookmaker-name="5Dimes" line="40.5" money="-125" context="current" />
+
+
+
                 <wagering-moneyline bookmaker-name="Betus " line="-110" context="current" />
+
                 <wagering-straight-spread bookmaker-name="Pinnacle" line="0.5" money="-126" context="current" />
                 <wagering-straight-spread bookmaker-name="Pinnacle" line="0.5" money="-141" context="first-half" />
                 <wagering-moneyline bookmaker-name="Pinnacle" line="-111" context="current" />
                 <wagering-moneyline bookmaker-name="Pinnacle" line="-106" context="first-half" />
                 <wagering-total bookmaker-name="Pinnacle" line="40.5" money="-122" context="current" />
                 <wagering-total bookmaker-name="Pinnacle" line="11.5" money="-120" context="first-half" />
+
                 <wagering-moneyline bookmaker-name="Olympic" line="-120" context="current" />
                 <wagering-moneyline bookmaker-name="Olympic" line="-110" context="first-half" />
                 <wagering-total bookmaker-name="Olympic" line="41.0" money="-105" context="current" />
@@ -49,37 +133,17 @@
             <team-stats score="0" />
         </team>
     </sport-event>
-    <sport-event>
-        <event-metadata event-status="" league="NHL Hockey" event-date-time="10/29/2009 07:05 PM" />
-        <team>
-            <team-metadata alignment="Home" nss="1002">
-                <name full="Boston Bruins" />
-            </team-metadata>
-            <wagering-stats>
-                <wagering-straight-spread bookmaker-name="Pinnacle" line="-0.5" money="156" context="first-half" />
-                <wagering-moneyline bookmaker-name="Pinnacle" line="-135" context="first-half" />
-                <wagering-straight-spread bookmaker-name="Olympic" line="-0.5" money="155" context="first-half" />
-                <wagering-moneyline bookmaker-name="Olympic" line="-135" context="first-half" />
-                <wagering-straight-spread bookmaker-name="Phoenix" line="-0.5" money="165" context="first-half" />
-                <wagering-moneyline bookmaker-name="Phoenix" line="-135" context="first-half" />
-            </wagering-stats>
-            <team-stats score="0" />
-        </team>
-        <team>
-            <team-metadata alignment="Away" nss="1001">
-                <name full="New Jersey Devils" />
-            </team-metadata>
-            <wagering-stats>
-                <wagering-straight-spread bookmaker-name="Pinnacle" line="0.5" money="-170" context="first-half" />
-                <wagering-moneyline bookmaker-name="Pinnacle" line="125" context="first-half" />
-                <wagering-straight-spread bookmaker-name="Olympic" line="0.5" money="-175" context="first-half" />
-                <wagering-moneyline bookmaker-name="Olympic" line="115" context="first-half" />
-                <wagering-straight-spread bookmaker-name="Phoenix" line="0.5" money="-185" context="first-half" />
-                <wagering-moneyline bookmaker-name="Phoenix" line="115" context="first-half" />
-            </wagering-stats>
-            <team-stats score="0" />
-        </team>
-    </sport-event>
+
+
+
+
+
+
+
+
+
+
+
     <sport-event>
         <event-metadata event-status="" league="NHL Hockey" event-date-time="10/29/2009 07:05 PM" />
         <team>
@@ -379,83 +443,6 @@
                 <wagering-total bookmaker-name="Phoenix" line="99.5" money="-115" context="halftime" />
             </wagering-stats>
             <team-stats score="97" />
-        </team>
-    </sport-event>
-    <sport-event>
-        <event-metadata event-status="FINAL" league="MLB Baseball" event-date-time="10/29/2009 07:55 PM" />
-        <team>
-            <team-metadata alignment="Home" nss="954" home-pitcher="A BURNETT">
-                <name full="New York Yankees" />
-            </team-metadata>
-            <wagering-stats>
-                <wagering-straight-spread bookmaker-name="5Dimes" line="-1.5" money="100" context="current" />
-                <wagering-straight-spread bookmaker-name="5Dimes" line="-0.5" money="-130" context="first-half" />
-                <wagering-moneyline bookmaker-name="5Dimes" line="-192" context="current" />
-                <wagering-moneyline bookmaker-name="5Dimes" line="-185" context="first-half" />
-                <wagering-total bookmaker-name="5Dimes" line="9.5" money="-120" context="current" />
-                <wagering-total bookmaker-name="5Dimes" line="5.0" money="-105" context="first-half" />
-                <wagering-straight-spread bookmaker-name="Betus " line="-1.5" money="-105" context="current" />
-                <wagering-straight-spread bookmaker-name="Betus " line="-0.5" money="-135" context="first-half" />
-                <wagering-moneyline bookmaker-name="Betus " line="-192" context="current" />
-                <wagering-moneyline bookmaker-name="Betus " line="-195" context="first-half" />
-                <wagering-total bookmaker-name="Betus " line="9.5" money="-125" context="current" />
-                <wagering-total bookmaker-name="Betus " line="5.0" money="-105" context="first-half" />
-                <wagering-straight-spread bookmaker-name="Pinnacle" line="-1.5" money="103" context="current" />
-                <wagering-straight-spread bookmaker-name="Pinnacle" line="0.0" money="-187" context="first-half" />
-                <wagering-moneyline bookmaker-name="Pinnacle" line="-191" context="current" />
-                <wagering-total bookmaker-name="Pinnacle" line="9.0" money="116" context="current" />
-                <wagering-total bookmaker-name="Pinnacle" line="5.0" money="101" context="first-half" />
-                <wagering-straight-spread bookmaker-name="Olympic" line="-1.5" money="100" context="current" />
-                <wagering-moneyline bookmaker-name="Olympic" line="-190" context="current" />
-                <wagering-total bookmaker-name="Olympic" line="9.0" money="110" context="current" />
-                <wagering-straight-spread bookmaker-name="Matchbook" line="-1.5" money="-112" context="current" />
-                <wagering-moneyline bookmaker-name="Matchbook" line="-212" context="current" />
-                <wagering-total bookmaker-name="Matchbook" line="9.0" money="-114" context="current" />
-                <wagering-straight-spread bookmaker-name="Phoenix" line="-1.5" money="100" context="current" />
-                <wagering-straight-spread bookmaker-name="Phoenix" line="-0.5" money="-140" context="first-half" />
-                <wagering-moneyline bookmaker-name="Phoenix" line="-192" context="current" />
-                <wagering-moneyline bookmaker-name="Phoenix" line="-192" context="first-half" />
-                <wagering-total bookmaker-name="Phoenix" line="9.0" money="105" context="current" />
-                <wagering-total bookmaker-name="Phoenix" line="5.0" money="-110" context="first-half" />
-            </wagering-stats>
-            <team-stats score="3" />
-        </team>
-        <team>
-            <team-metadata alignment="Away" nss="953" away-pitcher="P MARTINEZ">
-                <name full="Philadelphia Phillies" />
-            </team-metadata>
-            <wagering-stats>
-                <wagering-straight-spread bookmaker-name="5Dimes" line="1.5" money="-120" context="current" />
-                <wagering-straight-spread bookmaker-name="5Dimes" line="0.5" money="110" context="first-half" />
-                <wagering-moneyline bookmaker-name="5Dimes" line="181" context="current" />
-                <wagering-moneyline bookmaker-name="5Dimes" line="168" context="first-half" />
-                <wagering-total bookmaker-name="5Dimes" line="9.5" money="100" context="current" />
-                <wagering-total bookmaker-name="5Dimes" line="5.0" money="-115" context="first-half" />
-                <wagering-straight-spread bookmaker-name="Betus " line="1.5" money="-115" context="current" />
-                <wagering-straight-spread bookmaker-name="Betus " line="0.5" money="115" context="first-half" />
-                <wagering-moneyline bookmaker-name="Betus " line="182" context="current" />
-                <wagering-moneyline bookmaker-name="Betus " line="165" context="first-half" />
-                <wagering-total bookmaker-name="Betus " line="9.5" money="105" context="current" />
-                <wagering-total bookmaker-name="Betus " line="5.0" money="-115" context="first-half" />
-                <wagering-straight-spread bookmaker-name="Pinnacle" line="1.5" money="-113" context="current" />
-                <wagering-straight-spread bookmaker-name="Pinnacle" line="0.0" money="177" context="first-half" />
-                <wagering-moneyline bookmaker-name="Pinnacle" line="180" context="current" />
-                <wagering-total bookmaker-name="Pinnacle" line="9.0" money="-126" context="current" />
-                <wagering-total bookmaker-name="Pinnacle" line="5.0" money="-111" context="first-half" />
-                <wagering-straight-spread bookmaker-name="Olympic" line="1.5" money="-120" context="current" />
-                <wagering-moneyline bookmaker-name="Olympic" line="180" context="current" />
-                <wagering-total bookmaker-name="Olympic" line="9.0" money="-130" context="current" />
-                <wagering-straight-spread bookmaker-name="Matchbook" line="1.5" money="-122" context="current" />
-                <wagering-moneyline bookmaker-name="Matchbook" line="196" context="current" />
-                <wagering-total bookmaker-name="Matchbook" line="9.0" money="110" context="current" />
-                <wagering-straight-spread bookmaker-name="Phoenix" line="1.5" money="-120" context="current" />
-                <wagering-straight-spread bookmaker-name="Phoenix" line="0.5" money="120" context="first-half" />
-                <wagering-moneyline bookmaker-name="Phoenix" line="179" context="current" />
-                <wagering-moneyline bookmaker-name="Phoenix" line="167" context="first-half" />
-                <wagering-total bookmaker-name="Phoenix" line="9.0" money="-125" context="current" />
-                <wagering-total bookmaker-name="Phoenix" line="5.0" money="-110" context="first-half" />
-            </wagering-stats>
-            <team-stats score="1" />
         </team>
     </sport-event>
     <sport-event>
