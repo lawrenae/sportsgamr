@@ -21,14 +21,20 @@ describe ResultsCalculator do
        winnings.should eq 270
     end
 
-    it "it will calculate positive moneyline probability to the nearest whole integer" do
+    it "calculates positive moneyline probability to the nearest whole integer" do
       probability = ResultsCalculator.calculate_moneyline_probability +105
       probability.should eq 49
     end
 
-    it "it will calculate negative moneyline probability to the nearest whole integer" do
+    it "calculates negative moneyline probability to the nearest whole integer" do
       probability = ResultsCalculator.calculate_moneyline_probability -192
       probability.should eq 66
+    end
+    
+    it "calculates positive straight line probability to the nearest whole integer" do
+      pending
+      # probability = ResultsCalculator.calculate_straightline_probability 
+      # probability.should eq 66
     end
 end
 

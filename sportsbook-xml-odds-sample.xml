@@ -7,8 +7,8 @@
                 <name full="Cincinnati Reds" />
             </team-metadata>
             <wagering-stats>
-                <wagering-straight-spread bookmaker-name="5Dimes" line="-1.5" money="100" context="current" />
                 <wagering-moneyline bookmaker-name="5Dimes" line="-192" context="current" />
+                <wagering-straight-spread bookmaker-name="5Dimes" line="-1.5" money="100" context="current" />
                 <wagering-total bookmaker-name="5Dimes" line="9.5" money="-120" context="current" />
             </wagering-stats>
             <team-stats score="3" />
@@ -18,8 +18,8 @@
                 <name full="Colorado Rockie"s />
             </team-metadata>
             <wagering-stats>
-                <wagering-straight-spread bookmaker-name="5Dimes" line="1.5" money="-120" context="current" />
                 <wagering-moneyline bookmaker-name="5Dimes" line="181" context="current" />
+                <wagering-straight-spread bookmaker-name="5Dimes" line="1.5" money="-120" context="current" />
                 <wagering-total bookmaker-name="5Dimes" line="9.5" money="100" context="current" />
             </wagering-stats>
             <team-stats score="1" />

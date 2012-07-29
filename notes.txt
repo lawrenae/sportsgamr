@@ -1,0 +1,50 @@
+winlose
+points spread
+total runs
+
+probability
+-----------
+implied probability
+returns multiplier
+
+
+
+
+probability
+-----------
+type (moneyline, straight, total)
+line
+money
+context
+
+
+
+event
+-----
+id
+home_team
+away_team
+list_of_probabilities
+
+
+
+
+
+moneyline formula (AKA "implied probability")
+-----------------
+
+if line is positive, then
+	100/(line + 100)
+	
+if line is negative, then
+	abs(line)/(100+line)
+	
+
+straight spread AKA "runline" formula (AKA "returns multiplier")
+---------------------
+if positive: 100 / money + 100
+it negative: abs(money) / money + 100
+
+
+
+total AKA "Total runs"
