@@ -1,0 +1,15 @@
+html,body{
+    height: 100%;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+div.container{
+    width: 1132px;
+    height: 2000px;
+    background-image: url("/assets/earn_credit.png");
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    position: relative;
+}

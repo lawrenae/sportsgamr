@@ -220,9 +220,7 @@ $(document).ready(function(){
     }
 
     $("#Place_Bet").mousedown(function(){
-        $("#Winner_Bet").prop('disabled', true);
-        $("#Run_Bet").prop('disabled', true);
-        $("#Total_Run_Bet").prop('disabled', true);
         alert("Your bet has been placed.");
+        window.location.href = "home.html";
     });
 });
