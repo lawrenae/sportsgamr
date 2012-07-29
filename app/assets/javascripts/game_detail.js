@@ -215,7 +215,7 @@ $(document).ready(function(){
         if(isNaN(run_return)){run_return = 0;}
         var total_run_return = parseFloat($("#Total_Run_Return").text().substring(1));
         if(isNaN(total_run_return)){total_run_return = 0;}
-        $("#Total_Return").text((winner_return + run_return + total_run_return).toString());
+        $("#Total_Return").text("+" + (winner_return + run_return + total_run_return).toString());
 
     }
 
