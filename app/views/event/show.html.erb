@@ -10,14 +10,13 @@ Welcome to SportsGamr, <%=user.first_name %>!
 <div id="account_balance">Account Balance: <%= user.account_balance %></div>
 
 <div id="current_events">
-	<table id="events" border="1">
+	<table name="events" border="1">
 		<tr>
 			<th>Event Date</th>
 			<th>Home Team</th>
 			<th>Home moneyline</th>
 			<th>Away Team</th>
 			<th>Away moneyline</th>
-			<th>Play?</th>
 		</tr>
 		<% Event.find(:all).each_slice(1) do |event_row| %>
 		  <tr>
@@ -41,10 +40,6 @@ Welcome to SportsGamr, <%=user.first_name %>!
 						<td><%=ResultsCalculator.calculate_moneyline_probability(prob.line) %>% </td>
 					<% end %>
 		      <% end %>
-
-
-			<!-- play button -->
-				<td><%= link_to 'Play', event %></td>
 
 		    <% end %>
 		  </tr>

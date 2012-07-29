@@ -37,9 +37,9 @@ ActiveRecord::Schema.define(:version => 20120728230710) do
     t.string   "password"
     t.string   "first_name"
     t.string   "last_name"
+    t.integer  "account_balance"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
-    t.integer  "account_balance"
   end
 
 end

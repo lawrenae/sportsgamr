@@ -2,6 +2,7 @@ Sportsgamr::Application.routes.draw do
   root :to => "login#index"
   match '/home', :to => "login#home"
   match '/login', :to => "login#login"
+  resources :event
   
   
   # The priority is based upon order of creation:
