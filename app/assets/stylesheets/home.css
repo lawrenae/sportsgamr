@@ -1,0 +1,22 @@
+html,body{
+    height: 100%;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+div.container{
+    width: 1132px;
+    height: 2000px;
+    background-image: url("/assets/homepage.png");
+    background-repeat: no-repeat;
+    margin: 0px auto;
+	position: relative;
+}
+#Game_Detail{
+    position: absolute;
+    top: 488px;
+    left: 572px;
+    width: 136px;
+    height: 42px;
+}

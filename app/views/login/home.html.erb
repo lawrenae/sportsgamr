@@ -1,55 +1,14 @@
-<% require "resultscalculator" %>
-<% page_title = "You are Home" %>
+<!DOCTYPE HTML>
 <html>
 <head>
-<title><%= page_title %></title>
+	<%= stylesheet_link_tag "home.css" %>
+	<%= javascript_include_tag "jquery-1.7.2.js" %>
 </head>
-<%user = session[:user]%>
 <body>
-Welcome to SportsGamr, <%=user.first_name %>!
-<div id="account_balance">Account Balance: <%= user.account_balance %></div>
+<div class="container">
 
-<div id="current_events">
-	<table id="events" border="1">
-		<tr>
-			<th>Event Date</th>
-			<th>Home Team</th>
-			<th>Home moneyline</th>
-			<th>Away Team</th>
-			<th>Away moneyline</th>
-			<th>Play?</th>
-		</tr>
-		<% Event.find(:all).each_slice(1) do |event_row| %>
-		  <tr>
-		    <% event_row.each do |event| %>
-		      <td><%= event.event_date %></td>
-		
-			<!-- home team -->
-		      <td><%= event.home_team %></td>
-		
-			  <% event.probabilities.each do |prob| %>
-					<% if prob.probability_type == "MoneyLine" and event.home_team == prob.team_name then %>
-						<td><%=ResultsCalculator.calculate_moneyline_probability(prob.line) %>% </td>
-					<% end %>
-		      <% end %>
-		
-			<!-- away team -->
-		      <td><%= event.away_team %></td>
+<a id="Game_Detail" href="game_detail.html"></a>
 
-			  <% event.probabilities.each do |prob| %>
-					<% if prob.probability_type == "MoneyLine" and event.away_team == prob.team_name then %>
-						<td><%=ResultsCalculator.calculate_moneyline_probability(prob.line) %>% </td>
-					<% end %>
-		      <% end %>
-
-
-			<!-- play button -->
-				<td><%= link_to 'Play', event %></td>
-
-		    <% end %>
-		  </tr>
-		<% end %>
-	<table>
 </div>
 </body>
 </html>

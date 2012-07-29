@@ -1,0 +1,202 @@
+html,body{
+	height: 100%;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+div.container{
+	width: 1132px;
+	height: 2000px;
+	background-image: url("/assets/game_detail.png");
+	background-repeat: no-repeat;
+	margin: 0px auto;
+    position: relative;
+}
+#Reds{
+	position: absolute;
+	top: 605px;
+	left: 83px;
+	width: 318px;
+	height: 93px;
+	background-color: white;
+	cursor: pointer;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#Reds_Image{
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/reds.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#Rockies{
+	position: absolute;
+	top: 700px;
+	left: 83px;
+	width: 318px;
+	height: 93px;
+    background-color: white;
+	cursor: pointer;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#Rockies_Image{
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/rockies.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#Winner_Bet{
+	position: absolute;
+	top: 684px;
+	left: 427px;
+	width: 164px;
+	height: 40px;
+	text-align: right;
+}
+#Winner_Return{
+	position: absolute;
+	top: 690px;
+	left: 615px;
+	width: 93px;
+	height: 34px;
+	background-color: white;
+}
+
+#Run_More{
+	position: absolute;
+	top: 854px;
+	left: 83px;
+	width: 318px;
+	height: 93px;
+	background-color: white;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#Run_More_Image{
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/run_more.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#Run_Less{
+	position: absolute;
+	top: 941px;
+	left: 83px;
+	width: 318px;
+	height: 93px;
+	background-color: white;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#Run_Less_Image{
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/run_less.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#Run_Bet{
+	position: absolute;
+	top: 928px;
+	left: 419px;
+	width: 164px;
+	height: 40px;
+	text-align: right;
+}
+#Run_Return{
+	position: absolute;
+	top: 935px;
+	left: 609px;
+	width: 93px;
+	height: 34px;
+	background-color: white;
+}
+
+#Total_Run_More{
+	position: absolute;
+	top: 1086px;
+	left: 83px;
+	width: 318px;
+	height: 93px;
+	background-color: white;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#Total_Run_More_Image{
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/total_run_more.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#Total_Run_Less{
+	position: absolute;
+	top: 1178px;
+	left: 83px;
+	width: 318px;
+	height: 93px;
+	background-color: white;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#Total_Run_Less_Image{
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/total_run_less.png");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#Total_Run_Bet{
+	position: absolute;
+	top: 1166px;
+	left: 419px;
+	width: 164px;
+	height: 40px;
+	text-align: right;
+}
+#Total_Run_Return{
+	position: absolute;
+	top: 1172px;
+	left: 608px;
+	width: 93px;
+	height: 34px;
+	background-color: white;
+}
+
+#Place_Bet{
+	position: absolute;
+	top: 1321px;
+	left: 43px;
+	width: 328px;
+	height: 76px;
+    cursor: pointer;
+}
+#Total_Bet{
+	position: absolute;
+	top: 1324px;
+	left: 421px;
+	width: 119px;
+	height: 56px;
+	background-color: #E5E5E5;
+    text-align: center;
+    font-size: 30px;
+}
+#Total_Return{
+	position: absolute;
+	top: 1321px;
+	left: 568px;
+	width: 119px;
+	height: 53px;
+	background-color: white;
+    text-align: center;
+    font-size: 30px;
+}
