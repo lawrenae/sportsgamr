@@ -5,8 +5,14 @@ gem 'rails', '3.2.6'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+
+#use this for dev db work
 gem 'sqlite3'
+#uncomment this instead and run bundle install for heroku deploys
 #gem 'pg'
+
+
+
 gem 'thin'
 
 # Gems used only for assets and not required
